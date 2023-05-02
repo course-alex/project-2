@@ -1,0 +1,145 @@
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #EEF0F5;
+}
+
+.menu {
+    width: 260px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 22px;
+    padding-right: 52px;
+}
+
+.content {
+    width: 100%;
+    background-color: #EEF0F5;
+}
+
+.menu__header header {
+    display: flex;
+    height: 64px;
+    margin-bottom: 6px; 
+}
+
+.menu__header header p {
+    color: #3D4150;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+
+.menu__header header img {
+    width: 32px;
+}
+
+.ul-menu {
+    list-style: none;
+}
+
+.ul-menu li a {
+    color: #393939;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.disable__link {
+    opacity: 0.65;
+}
+
+
+.ul-menu li {
+    width: 242px;
+    height: 42px;
+}
+
+.ul-menu li a img {
+    margin-right: 10px;
+}
+
+.menu__footer {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 260px;
+    margin-bottom: 28px;
+}
+
+.menu__footer p {
+    font-weight: 600;
+    font-size: 16px; 
+    color: #3A3541DE;
+    margin-right: 108px;
+}
+
+.menu__footer img {
+    margin-right: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 23px;
+}
+
+.content .container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+}
+
+.content .container header img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+.content .container header a img {
+    width: 21px;
+}
+
+.content .container header h1 {
+    margin-right: 10px;
+    color: #3A3541;
+}
+
+.content .container header p {
+    color: #393939;
+    width: 83px;
+    height: 24px;
+    background-color: #EEFFFF;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+}
+
+.all-content {
+    width: 100%;
+    height: 100%;
+    background-color: #EEFFFF;
+}
