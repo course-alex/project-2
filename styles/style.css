@@ -21,8 +21,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-left: 22px;
-    padding-right: 52px;
 }
 
 .content {
@@ -34,6 +32,7 @@ body {
     display: flex;
     height: 64px;
     margin-bottom: 6px; 
+    margin-left: 22px;
 }
 
 .menu__header header p {
@@ -51,6 +50,7 @@ body {
 
 .ul-menu {
     list-style: none;
+    margin-left: 22px;
 }
 
 .ul-menu li a {
@@ -87,6 +87,7 @@ body {
 .menu__footer div:nth-child(1) {
     display: flex;
     align-items: center;
+    margin-left: 22px;
 }
 
 .menu__footer p {
@@ -160,6 +161,6 @@ body {
 .all-content {
     width: 100%;
     height: calc(100% - 100px);
-    background-color: #EEFFFF;
+    background-color: white;
     border-radius: 1%;
 }
