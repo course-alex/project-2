@@ -26,6 +26,8 @@ body {
 .content {
     width: 100%;
     background-color: #EEF0F5;
+    display: flex;
+    justify-content: center;
 }
 
 .menu__header header {
@@ -111,9 +113,9 @@ body {
 }
 
 .container {
-    margin: 0 auto;
     padding-left: 24px;
     padding-right: 23px;
+    width: 1180px;
 }
 
 .content .container header {
@@ -130,7 +132,7 @@ body {
 }
 
 .content .container header a img {
-    width: 21px;
+    width: 32px;
 }
 
 .content .container header h1 {
@@ -164,3 +166,4 @@ body {
     background-color: white;
     border-radius: 1%;
 }
+
