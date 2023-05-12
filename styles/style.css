@@ -117,7 +117,7 @@ body {
     width: 1180px;
 }
 
-.content .container header {
+.left__post__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,22 +125,22 @@ body {
     width: 100%;
 }
 
-.content .container header img {
+.header-div img {
     width: 32px;
     margin-right: 10px;
 }
 
-.content .container header a img {
+.header-div a img {
     width: 32px;
 }
 
-.content .container header h4 {
+.header-div h4 {
     margin-right: 10px;
     color: #3A3541;
     font-family: 'Inter', sans-serif;
 }
 
-.content .container header p {
+.header-div p {
     color: #393939;
     width: 83px;
     height: 24px;
