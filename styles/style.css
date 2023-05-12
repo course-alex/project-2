@@ -6,6 +6,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 body {
     margin: 0;
     padding: 0;
+    background: #EEF0F5;
 }
 
 .app {
@@ -39,7 +40,7 @@ body {
 
 .menu__header header p {
     color: #3D4150;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     margin-top: 18px;
     margin-left: 12px;
@@ -173,7 +174,6 @@ body {
 .page__block:last-child {
     width: 80%;
     margin-left: 24px;
-    background-color: white;
 }
 
 .post__toaster {
@@ -330,7 +330,6 @@ body {
     margin-bottom: 16px;
     display: flex;
     align-items: center;
-    max-width: 630px;
 }
 
 .bring p {
@@ -340,7 +339,7 @@ body {
 }
 
 .stick {
-    width: 618px;
+    width: 100%;
     height: 1px;
     display: flex;
     justify-content: center;
@@ -409,7 +408,7 @@ body {
 }
 
 .cues__container div {
-    width: 278px;
+    width: 40%;
     height: 1px;
     background: #CCCCCC;
 }
@@ -430,6 +429,130 @@ body {
     display: flex;
 }
 
+.mobile-header {
+    display: none;
+    justify-content: space-between;
+    height: 54px;
+    background-color: white;
+}
+
+.openMenu__container {
+    display: flex;
+    align-items: center;
+
+}
+
+.mobile__menu {
+    display: flex;
+    align-items: center;
+}
+
+.mobile__menu img {
+    height: 32px;
+}
+
+.mobile-header p {
+    color: #3D4150;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 12px;
+    font-family: 'Sora', sans-serif;
+}
+
+.page__right__header {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.correctness {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+.correctness img {
+    margin-right: 12px;
+}
+
+.correctness p {
+    font-size: 14px;
+    color: #3A3541;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.page__right__header {
+    background-color: white;
+    height: 190px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.01);
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.page__right__body {
+    height: 170px;
+}
+
+.pronunciation {
+    height: 58px;
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+} 
+
+.pronunciation h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #303030;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2px;
+}
+
+.pronunciation p {
+    color: rgba(58, 53, 65, 0.68);
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.pronunciation-right {
+    margin-top: 10px;
+}
+
+.grammar {
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grammar h4 {
+    color: #303030;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.litleSlow {
+    height: 38px;
+}
+
+.arrowBottom {
+    transform: rotate(180deg);
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
     .container {
         width: 992px;
@@ -445,5 +568,45 @@ body {
 @media screen and (max-width: 991px) {
     .menu {
         display: none;
+    }
+    .page {
+        flex-direction: column;
+        height: auto;
+    }
+    .app {
+        height: auto;
+    }
+    .mobile-header {
+        display: flex;
+    }
+    .page__block:last-child {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .footer__content {
+        justify-content: space-between;
+        height: 80px;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px 0;
+    }
+    .gotIt__container {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .post {
+        padding-left: 8px;
+        padding-right: 12px;
+    }
+
+    .container {
+        padding-left: 5px;
+        padding-right: 8px;
     }
 }
